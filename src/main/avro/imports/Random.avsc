@@ -1,0 +1,14 @@
+{
+    "type":"record",
+    "name":"Random",
+    "namespace":"io.axual.client.example.schema",
+    "doc":"Object type that is supposed to be filled with a Random value. This should be used when the Key is irrelevant.",
+    "fields": [{
+        "name":"random",
+        "type": {
+            "type":"string",
+            "avro.java.string":"String"
+        },
+        "doc":"The random value."
+    }]
+}
